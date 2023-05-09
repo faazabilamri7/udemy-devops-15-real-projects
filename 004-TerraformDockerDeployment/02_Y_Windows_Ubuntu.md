@@ -58,7 +58,7 @@ Hence the GitLab server URL is `http://gitlab.mydevopsrealprojects.com`
 
 ### 2. Configure the **hosts** file
 
-- Add these 2 entries in Windows's hosts file `C:\Windows\System32\drivers\etc\hosts`
+- Add these 2 entries on Windows's hosts file `C:\Windows\System32\drivers\etc\hosts`
 
 ```dos
 192.168.33.10 gitlab.mydevopsrealprojects.com

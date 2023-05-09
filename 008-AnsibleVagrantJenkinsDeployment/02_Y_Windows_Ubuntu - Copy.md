@@ -57,7 +57,7 @@ Issues:
 
 Can't use a Windows system for the Ansible control node.
 
-Install 2 Vagrant VMs in Windows?
+Install 2 Vagrant VMs on Windows?
 -->
 
 ## Lab goal

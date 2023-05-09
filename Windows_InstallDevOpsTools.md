@@ -1,14 +1,14 @@
 # How to set up Windows
 
-## Install Docker (and Docker Compose) in Windows
+## Install Docker (and Docker Compose) on Windows
 
 <https://docs.docker.com/desktop/install/windows-install/>
 
-## Install VirtualBox in Windows
+## Install VirtualBox on Windows
 
 <https://www.virtualbox.org/wiki/Downloads>
 
-## Install Vagrant in Windows
+## Install Vagrant on Windows
 
 <https://developer.hashicorp.com/vagrant/docs/installation>
 
@@ -40,7 +40,7 @@ This command will start the Vagrant environment with the Docker provider.
 
 Once the Vagrant environment is started, we can use the vagrant ssh command to SSH into the environment and interact with our Docker containers.
 
-## Install minikube in Windows
+## Install minikube on Windows
 
 <https://minikube.sigs.k8s.io/docs/start/>
 
@@ -50,7 +50,7 @@ minikube start --driver=docker --kubernetes-version=v1.26.1
 minikube version
 ```
 
-## Install kubectl in Windows
+## Install kubectl on Windows
 
 ```dos
 minikube kubectl
@@ -58,7 +58,7 @@ minikube kubectl
 kubectl version
 ```
 
-## Install Helm in Windows
+## Install Helm on Windows
 
 ```dos
 choco install kubernetes-helm
@@ -66,13 +66,13 @@ choco install kubernetes-helm
 helm version
 ```
 
-## Install Kind in Windows
+## Install Kind on Windows
 
 ```bash
 choco install kind
 ```
 
-## Install Git Bash in Windows
+## Install Git Bash on Windows
 
 Here are the steps to install Git Bash on Windows:
 
@@ -97,7 +97,7 @@ You can now launch Git Bash by searching for "Git Bash" in the Start menu or by 
 Git Bash is now installed on your Windows system, and you can use it to run Git commands and Unix utilities from the command line.
 
 <!--
-minikube in Windows has many issues
+minikube on Windows has many issues
 
 ```dos
 C:\devbox>minikube start --driver=none

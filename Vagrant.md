@@ -2,13 +2,13 @@
 
 ## Install Vagrant
 
-### Install Vagrant in Windows
+### Install Vagrant on Windows
 
 ### Install Vagrant in Mac
 
 ## Install VirtualBox (aka VBox)
 
-### Install VirtualBox in Windows
+### Install VirtualBox on Windows
 
 ### Install VirtualBox in Mac
 

@@ -6,9 +6,9 @@ In this lab, we will set up a **Nexus** repository and push a war file from **Je
 
 ## Prerequisites
 
-### 1. Install Docker in Windows
+### 1. Install Docker on Windows
 
-### 2. Install Vagrant in Windows
+### 2. Install Vagrant on Windows
 
 ### 3. Create a GitHub personal access token
 

@@ -16,9 +16,17 @@ We have to notify all contributors that they must rebase their work onto our new
 
 - [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) -->
 
+### Install VirtualBox for Windows
+
 ### Install Vagrant for Windows
 
 ### Start Vagrant with the Ubuntu file
+
+```dos
+vagrant up
+
+vagrant ssh
+```
 
 ## Steps
 

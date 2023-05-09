@@ -4,13 +4,13 @@ Windows only
 
 ## Prerequisites
 
-### Install Docker in Windows
+### Install Docker on Windows
 
-### Install Git Bash in Windows
+### Install Git Bash on Windows
 
 ## Steps
 
-### 1. Install kubectl in Windows
+### 1. Install kubectl on Windows
 
 <!--
 [Install and Set Up kubectl on Linux](https://www.google.com/search?channel=fs&client=ubuntu&q=install+kubectl+)

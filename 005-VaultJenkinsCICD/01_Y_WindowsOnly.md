@@ -6,7 +6,7 @@ In this lab, we will learn how to integrate Vault into Jenkins pipeline, as well
 
 ## Prerequisites
 
-### Install Docker in Windows
+### Install Docker on Windows
 
 ## Steps
 
