@@ -1,12 +1,12 @@
 # How to set up Mac
 
-## Install Homebrew (and Git) in Mac
+## Install Homebrew (and Git) on Mac
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-## Install Vagrant in Mac
+## Install Vagrant on Mac
 
 ```bash
 brew install vagrant
@@ -42,7 +42,7 @@ This command will start the Vagrant environment with the Docker provider.
 
 Once the Vagrant environment is started, we can use the vagrant ssh command to SSH into the environment and interact with our Docker containers.
 
-## Install VirtualBox in Mac
+## Install VirtualBox on Mac
 
 ```bash
 brew install VirtualBox
@@ -50,7 +50,7 @@ brew install VirtualBox
 VBoxManage --version
 ```
 
-## Install Docker (and Docker Compose) in Mac
+## Install Docker (and Docker Compose) on Mac
 
 Docker Desktop
 
@@ -60,7 +60,7 @@ brew install docker
 docker version
 ```
 
-## Install minikube in Mac
+## Install minikube on Mac
 
 ```bash
 curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-darwin-amd64 && \
@@ -69,7 +69,7 @@ sudo install minikube-darwin-amd64 /usr/local/bin/minikube
 minikube version
 ```
 
-## Install kubectl in Mac
+## Install kubectl on Mac
 
 ```bash
 brew install kubectl
@@ -77,7 +77,7 @@ brew install kubectl
 kubectl version
 ```
 
-## Install Helm in Mac
+## Install Helm on Mac
 
 ```bash
 brew install helm
@@ -85,7 +85,7 @@ brew install helm
 helm version
 ```
 
-## Install Kind in Mac
+## Install Kind on Mac
 
 ```bash
 brew install kind
