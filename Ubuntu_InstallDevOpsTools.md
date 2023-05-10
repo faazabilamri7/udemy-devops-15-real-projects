@@ -137,7 +137,6 @@ Download kubectl
 minikube kubectl
 ```
 
-
 <!--
 ```bash
 sudo apt-get update && sudo apt-get install -y apt-transport-https gnupg2 curl

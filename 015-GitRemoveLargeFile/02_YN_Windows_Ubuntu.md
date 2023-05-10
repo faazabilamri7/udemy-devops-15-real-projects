@@ -32,7 +32,38 @@ vagrant ssh
 
 <https://github.com/newren/git-filter-repo>
 
-https://github.com/briansu2004/git-filter-repo/blob/main/INSTALL.md
+<https://github.com/briansu2004/git-filter-repo/blob/main/INSTALL.md>
+
+<https://github.com/briansu2004/git-filter-repo/blob/main/git-filter-repo>
+
+<https://raw.githubusercontent.com/newren/git-filter-repo/main/git-filter-repo>
+
+```bash
+curl -L https://raw.githubusercontent.com/newren/git-filter-repo/main/git-filter-repo > git-filter-repo
+```
+
+<!--
+vagrant@vagrant:~/git-test-new$ curl -L https://raw.githubusercontent.com/newren/git-filter-repo/main/git-filter-repo > git-filter-repo
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  161k  100  161k    0     0  1349k      0 --:--:-- --:--:-- --:--:-- 1349k
+vagrant@vagrant:~/git-test-new$ ls -l
+total 168
+-rw-rw-r-- 1 vagrant vagrant     11 May 10 15:43 file1
+-rw-rw-r-- 1 vagrant vagrant 165782 May 10 15:52 git-filter-repo
+vagrant@vagrant:~/git-test-new$ python3 git-filter-repo --analyze
+Processed 2 blob sizes
+Processed 3 commits
+Writing reports to .git/filter-repo/analysis...done.
+-->
+
+<!--
+vagrant@vagrant:~/git-test-new$ sudo apt-get install git-filter-repo
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+E: Unable to locate package git-filter-repo
+-->
 
 ## Steps
 
