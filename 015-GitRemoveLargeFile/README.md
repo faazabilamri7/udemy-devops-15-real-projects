@@ -13,7 +13,7 @@ We have to notify all contributors that they must rebase their work onto our new
 | # | Env              | Y/N | Recommended | Comment |
 |---|------------------|-----|-------------|---------|
 | 1 | Windows only     | N   | N           |         |
-| 2 | Windows + Ubuntu | YN  | Y           |         |
+| 2 | Windows + Ubuntu | Y   | Y           |         |
 | 3 | Mac only         | N   | N           |         |
 | 4 | Mac + Ubuntu     | Y   | Y           |         |
 

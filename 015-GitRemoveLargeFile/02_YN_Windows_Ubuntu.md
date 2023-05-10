@@ -114,7 +114,7 @@ our configuration file:
 
     git config --global --edit
 
-After doing this, you may fix the identity used for this commit with:
+After doing this, we may fix the identity used for this commit with:
 
     git commit --amend --reset-author
 
@@ -142,7 +142,7 @@ our configuration file:
 
     git config --global --edit
 
-After doing this, you may fix the identity used for this commit with:
+After doing this, we may fix the identity used for this commit with:
 
     git commit --amend --reset-author
 
@@ -228,13 +228,13 @@ vagrant@vagrant:~/git-test$ git rev-list --objects --all | grep 82c99a3
 82c99a3e86bb1267b236a4b6eff7868d97489af1 git.tgz
 -->
 
-Note: `82c99a3` is the SHA you found in previous command. It may be different in your scenario.
+Note: `82c99a3` is the SHA we found in previous command. It may be different in your scenario.
 
 ### 5. **Remove** the File from History
 
-We are going to use `git-filter-repo` command to rewrite the git history. This doesn't come with the original setup and you have to install it seperately. We can follow [this document](https://github.com/newren/git-filter-repo/blob/main/INSTALL.md) to download the tool.
+We are going to use `git-filter-repo` command to rewrite the git history. This doesn't come with the original setup and we have to install it seperately. We can follow [this document](https://github.com/newren/git-filter-repo/blob/main/INSTALL.md) to download the tool.
 
-Since the tool has to be used in a repo which has clean clone, you may need to below step to clone it to another repo in order to use it:
+Since the tool has to be used in a repo which has clean clone, we may need to below step to clone it to another repo in order to use it:
 
 ```dos
 cd ..
@@ -249,14 +249,14 @@ git filter-repo --invert-paths --path git.tgz
 git gc
 ```
 
-Then you should be able to see the size is reduced
+Then we should be able to see the size is reduced
 
 ```dos
 du -sh
 git count-objects -v
 ```
 
-Last, you can push the change to the remote repo to finish this lab
+Lastly, we can push the change to the remote repo to finish this lab.
 
 ```dos
 git push origin --force --all
