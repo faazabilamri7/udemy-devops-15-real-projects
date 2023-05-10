@@ -40,6 +40,8 @@ vagrant ssh
 
 ```bash
 sudo apt install python3-pip
+python3 -m pip install --user git-filter-repo
+export PATH=$PATH:/home/vagrant/.local/bin
 ```
 
 -->
