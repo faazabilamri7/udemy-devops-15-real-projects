@@ -1,4 +1,4 @@
-# Lab 015: Remove Large File from Git Commit History
+# Lab 015: Remove Large Files from Git Commit History
 
 Windows + Ubuntu
 
@@ -8,7 +8,9 @@ This lab specifically focuses on the process of removing large file objects from
 
 **Be warned: this technique is destructive to our commit history.**
 
+<!--
 We have to notify all contributors that they must rebase their work onto our new commits.
+-->
 
 ## Prerequisites
 
@@ -99,10 +101,10 @@ We can find the SHA for the largest file in packfile
 
 ```bash
 ls .git/objects/pack/*.idx
-git verify-pack -v .git/objects/pack/<index name>.idx | sort -k 3 -n | tail -3
+git verify-pack -v .git/objects/pack/<index_name>.idx | sort -k 3 -n | tail -3
 ```
 
-Note: Please replace **<index name>** with actual index name under `.git/objects/pack` folder.
+Note: Please replace **<index_name>** with actual index name under `.git/objects/pack` folder.
 
 e.g.
 
@@ -119,6 +121,14 @@ git verify-pack -v .git/objects/pack/pack-180fe43703f733dfd1a44cffc10190f35a141f
 Run below command to find out what the file name of the blob:
 
 ```dos
+git rev-list --objects --all | grep <SHA>
+```
+
+Note: Please replace **<SHA>** with actual SHA name in previous command.
+
+e.g.
+
+```dos
 git rev-list --objects --all | grep 82c99a3
 ```
 
@@ -127,8 +137,6 @@ git rev-list --objects --all | grep 82c99a3
 ...
 ```
 -->
-
-Note: `82c99a3` is the SHA we found in previous command. It may be different in your scenario.
 
 ### 5. **Remove** the File from History
 
@@ -147,7 +155,7 @@ git clone git-test git-test-new
 ```
 -->
 
-Then run below command to remove the file from the git history
+Then run below command to remove the file from the git history.
 
 ```dos
 cd git-test-new
@@ -161,7 +169,7 @@ git gc
 ```
 -->
 
-Then we should be able to see the size is reduced
+Then we should be able to see the size is reduced.
 
 ```dos
 du -sh
@@ -174,11 +182,13 @@ git count-objects -v
 ```
 -->
 
+<!--
 Lastly, we can push the change to the remote repo to finish this lab.
 
 ```dos
 git push origin --force --all
 ```
+-->
 
 <!--
 ```bash
