@@ -1,6 +1,12 @@
 # udemy-devops-15-real-projects
 
-udemy-devops-15-real-projects
+Enjoy 😀
+
+## Course
+
+[DevOps Labs: 15 Real DevSecOps Projects](https://www.udemy.com/course/devops-labs-15-real-devsecops-projects/)
+
+<a href="https://www.udemy.com/course/devops-labs-15-real-devsecops-projects/">![DevOps Labs: 15 Real DevSecOps Projects](image/course_image_15.jpg)</a>
 
 ## Labs
 
