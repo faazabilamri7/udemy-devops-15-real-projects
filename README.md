@@ -31,3 +31,5 @@ Lab 013: Develop a Java Application in K8s for Monitoring ConfigMap Modification
 Lab 014: Deploy and Use Vault As Agent Sidecar Injector
 
 Lab 015: Remove Large File from Git Commit History
+
+I picked the best 15 labs and added them to this course.
